@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Enemigo : MonoBehaviour
 {
+    public AudioClip deathSoundEffect;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +23,8 @@ public class Enemigo : MonoBehaviour
     {
         if (collision.GetComponent<PersonajeControlable>() || collision.GetComponent<Nanabozho>())
         {
+            collision.GetComponent<AudioSource>().clip = deathSoundEffect;
+            collision.GetComponent<AudioSource>().Play();
             Destroy(gameObject);
         }
         if (collision.GetComponent<ZonaDefender>())
