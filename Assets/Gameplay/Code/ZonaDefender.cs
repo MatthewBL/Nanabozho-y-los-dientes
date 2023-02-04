@@ -34,7 +34,7 @@ public class ZonaDefender : MonoBehaviour
 
     public void ReducirDefensa(int cantidadReducida)
     {
-        defensaRestante -= 1;
+        if (!Temporizador.victory) defensaRestante -= cantidadReducida;
     }
 
     void CheckDefeat()

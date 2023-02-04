@@ -1827,6 +1827,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jugador
       objectReference: {fileID: 0}
+    - target: {fileID: 3823546880009602689, guid: 9a99d4d5aa027b94996509d16972e700, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3823546880009602691, guid: 9a99d4d5aa027b94996509d16972e700, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -3231,7 +3235,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 7
 --- !u!19719996 &1161093735
 TilemapCollider2D:
@@ -3668,6 +3672,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InvocadorNanabozho
       objectReference: {fileID: 0}
+    - target: {fileID: 444974064454708346, guid: 33dafed78211fb1499ee09c9f19eda95, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 444974064454708347, guid: 33dafed78211fb1499ee09c9f19eda95, type: 3}
       propertyPath: temporizador
       value: 
@@ -3847,9 +3855,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Temporizador
       objectReference: {fileID: 0}
+    - target: {fileID: 3796506958007235778, guid: 738bfa48ae9d2694fa857507a4ce35a5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3796506958007235779, guid: 738bfa48ae9d2694fa857507a4ce35a5, type: 3}
       propertyPath: tiempoInicial
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265753993758415368, guid: 738bfa48ae9d2694fa857507a4ce35a5, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265753993758415368, guid: 738bfa48ae9d2694fa857507a4ce35a5, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265753993758415368, guid: 738bfa48ae9d2694fa857507a4ce35a5, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 738bfa48ae9d2694fa857507a4ce35a5, type: 3}
@@ -3873,12 +3897,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6835361701776147175, guid: 2ffbd2bf8a6a4f145988735d94fa7469, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6835361701776147175, guid: 2ffbd2bf8a6a4f145988735d94fa7469, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6835361701776147175, guid: 2ffbd2bf8a6a4f145988735d94fa7469, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6856197471007878619, guid: 2ffbd2bf8a6a4f145988735d94fa7469, type: 3}
       propertyPath: m_Name
       value: Zona a defender
+      objectReference: {fileID: 0}
+    - target: {fileID: 6856197471007878619, guid: 2ffbd2bf8a6a4f145988735d94fa7469, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6856197471007878621, guid: 2ffbd2bf8a6a4f145988735d94fa7469, type: 3}
       propertyPath: m_RootOrder
