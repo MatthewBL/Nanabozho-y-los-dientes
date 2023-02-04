@@ -47,7 +47,7 @@ public class ZonaDefender : MonoBehaviour
         if (defensaRestante <= 0)
         {
             PlayerPrefs.SetString("Outcome", "Defeat");
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(2);
         }
     }
 }
