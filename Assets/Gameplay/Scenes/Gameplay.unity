@@ -3591,12 +3591,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1403596740899216833, guid: 7f5224e6b9e3e8a479b87da1ed51c345, type: 3}
+      propertyPath: temporizador
+      value: 
+      objectReference: {fileID: 2097177157}
+    - target: {fileID: 1403596740899216833, guid: 7f5224e6b9e3e8a479b87da1ed51c345, type: 3}
       propertyPath: tiempoGeneracionFinal
-      value: 3
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 1403596740899216833, guid: 7f5224e6b9e3e8a479b87da1ed51c345, type: 3}
       propertyPath: tiempoGeneracionInicial
-      value: 6
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3388120414129700478, guid: 7f5224e6b9e3e8a479b87da1ed51c345, type: 3}
       propertyPath: m_Name
