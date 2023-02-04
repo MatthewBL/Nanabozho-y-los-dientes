@@ -73,7 +73,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 24707612631694520, guid: 0351a15e447b1594cb2b1bc53f5327ca, type: 3}
       propertyPath: velocidadDeMovimiento
-      value: 0.5
+      value: 2.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0351a15e447b1594cb2b1bc53f5327ca, type: 3}
@@ -114,3 +114,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b5c16e89c253e4ea2606a8b7fb54b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathSoundEffect: {fileID: 8300000, guid: 71e3ed06bf269f043a31ed9a657dd1c3, type: 3}

@@ -11,10 +11,22 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -5617914571346078737, guid: 0351a15e447b1594cb2b1bc53f5327ca, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.28
+      objectReference: {fileID: 0}
+    - target: {fileID: -5617914571346078737, guid: 0351a15e447b1594cb2b1bc53f5327ca, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.28
+      objectReference: {fileID: 0}
     - target: {fileID: 24707612631694501, guid: 0351a15e447b1594cb2b1bc53f5327ca, type: 3}
       propertyPath: m_Name
       value: Nanabozho
       objectReference: {fileID: 0}
+    - target: {fileID: 24707612631694502, guid: 0351a15e447b1594cb2b1bc53f5327ca, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1443678688, guid: 69b4c6037cd1f274a8efe1abc9e4a676, type: 3}
     - target: {fileID: 24707612631694503, guid: 0351a15e447b1594cb2b1bc53f5327ca, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -96,3 +108,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tiempoMinGiro: 0.1
   tiempoMaxGiro: 0.3
+  tiempoVida: 10
+--- !u!95 &6791310177677328728
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3588724183350874454}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 97934e1f2ca9f614098aaf191831c5d7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

@@ -12,6 +12,7 @@ public class ZonaDefender : MonoBehaviour
     int defensaRestante = 10;
     public TextMeshProUGUI text;
     public Slider slider;
+    public AudioClip damageSoundEffect;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +23,7 @@ public class ZonaDefender : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        text.text = defensaRestante + "/" + defensaIncial;
+        text.text = defensaRestante.ToString();
         slider.value = RatioDefensa();
         CheckDefeat();
     }
@@ -34,7 +35,11 @@ public class ZonaDefender : MonoBehaviour
 
     public void ReducirDefensa(int cantidadReducida)
     {
-        if (!Temporizador.victory) defensaRestante -= cantidadReducida;
+        if (!Temporizador.victory) {
+            defensaRestante -= cantidadReducida;
+            GetComponent<AudioSource>().clip = damageSoundEffect;
+            GetComponent<AudioSource>().Play();
+        }
     }
 
     void CheckDefeat()
