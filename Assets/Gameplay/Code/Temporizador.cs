@@ -48,7 +48,7 @@ public class Temporizador : MonoBehaviour
         if (tiempoRestante <= 0f)
         {
             PlayerPrefs.SetString("Outcome", "Victory");
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(2);
         }
     }
 }
