@@ -23,6 +23,8 @@ public class Nanabozho : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Animator animator = GetComponent<Animator>();
+
         tiempoGiro -= Time.deltaTime;
         tiempoVida -= Time.deltaTime;
 
@@ -37,9 +39,11 @@ public class Nanabozho : MonoBehaviour
 
             float directionX = Random.Range(0f, 1f);
             float directionY = Random.Range(0f, 1f);
+            animator.SetInteger("Direccion", 1);
             if (transform.position.x > 0)
             {
                 directionX *= -1;
+                animator.SetInteger("Direccion", 0);
             }
             if (transform.position.y > 0)
             {

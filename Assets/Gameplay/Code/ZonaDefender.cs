@@ -22,7 +22,7 @@ public class ZonaDefender : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        text.text = defensaRestante + "/" + defensaIncial;
+        text.text = defensaRestante.ToString();
         slider.value = RatioDefensa();
         CheckDefeat();
     }

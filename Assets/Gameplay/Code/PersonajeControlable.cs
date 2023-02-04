@@ -21,6 +21,7 @@ public class PersonajeControlable : MonoBehaviour
     void Update()
     {
         ControlInput();
+        UpdateAnimation();
     }
 
     void ControlInput()
@@ -51,6 +52,38 @@ public class PersonajeControlable : MonoBehaviour
         if (direction != 0)
         {
             personaje.SetDirection(orientation, direction);
+        }
+    }
+
+    void UpdateAnimation()
+    {
+        float direccionHor = personaje.direccionHor;
+        float direccionVert = personaje.direccionVert;
+        if (!GetComponent<Animator>())
+        {
+            return;
+        }
+        if (Mathf.Abs(direccionVert) > Mathf.Abs(direccionHor))
+        {
+            if (direccionVert > 0)
+            {
+                GetComponent<Animator>().SetFloat("Direccion", 0);
+            }
+            else
+            {
+                GetComponent<Animator>().SetFloat("Direccion", 0.67f);
+            }
+        }
+        else
+        {
+            if (direccionHor < 0)
+            {
+                GetComponent<Animator>().SetFloat("Direccion", 1);
+            }
+            else
+            {
+                GetComponent<Animator>().SetFloat("Direccion", 0.34f);
+            }
         }
     }
 }
