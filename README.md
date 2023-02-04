@@ -20,6 +20,6 @@ Enlace de Google Drive: https://drive.google.com/drive/folders/19L_4xZ06-5Rmc48X
 
 * Isabel Arrans Vega: Artista 2D de personajes
 * Matthew Bwye Lera: Desarrollador
-* Jesús Martín Dávila Otero: Tester. Apoyo al guión y a las ideas
+* Jesús Martín Dávila Otero: Guionista y supervisor
 * Guillermo López Rosado: Artista musical
 * Diego Manuel Gil Losa: Artista 2D de entornos
