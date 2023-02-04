@@ -558,6 +558,10 @@ PrefabInstance:
       value: "Urt\xE9 conf\xEDe en mi. He hecho ehto toa mi v\xEDa y ha zal\xEDo
         bien el zien por zien de lah veze que no ha zal\xEDo mal"
       objectReference: {fileID: 0}
+    - target: {fileID: 7591376377516487675, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: hablador
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
 --- !u!1 &5418494196597891758 stripped
@@ -822,6 +826,10 @@ PrefabInstance:
       propertyPath: m_text
       value: "\xBFQuiere zegu\xED adelante?"
       objectReference: {fileID: 0}
+    - target: {fileID: 7591376377516487675, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: hablador
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
 --- !u!1 &6371662850036968243 stripped
@@ -1078,6 +1086,10 @@ PrefabInstance:
         los antiguo chamaneh de nuestro pueblo, a trav\xE9 del cual invocaban los
         podere der di\xF3 Nanabozho para que loh ayudara en cazo de nezezid\xE1."
       objectReference: {fileID: 0}
+    - target: {fileID: 7591376377516487675, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: hablador
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
 --- !u!1 &6242096794790699092 stripped
@@ -1328,9 +1340,25 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680615, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_Color.b
+      value: 0.37169808
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680615, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680615, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.99748033
+      objectReference: {fileID: 0}
     - target: {fileID: 5265025203492901090, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_text
       value: "Z\xED b\xE1sicamente era lo kesperaba, esperaba ve los diente y ak\xEDst\xE1n."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7591376377516487675, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: hablador
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
@@ -1459,6 +1487,10 @@ PrefabInstance:
       propertyPath: m_text
       value: "En eze cazo tendr\xE9 que hazerle a urt\xE9 una manzia \xBFzabe lo
         ke eh?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7591376377516487675, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: hablador
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
@@ -1595,6 +1627,10 @@ PrefabInstance:
       propertyPath: m_text
       value: Mu bien mu bien, ertupendo entonce. Ahora kedeze quieto mientra le pongo
         loh amarre.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7591376377516487675, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: hablador
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
@@ -2040,6 +2076,10 @@ PrefabInstance:
       value: "\xAA poh dimel\xF3, dimel\xF3. AB\u2026 Yayayayaya. Z\xED, tiene uht\xE9
         una inferci\xF3n mu fea en las ra\xEDze de zuh paleta."
       objectReference: {fileID: 0}
+    - target: {fileID: 7591376377516487675, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: hablador
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
 --- !u!1 &66296870079301317 stripped
@@ -2195,10 +2235,26 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680615, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_Color.b
+      value: 0.37169808
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680615, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680615, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.99748033
+      objectReference: {fileID: 0}
     - target: {fileID: 5265025203492901090, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_text
       value: "Bonito nombre zi ze\xF1\xF3. Mubien, paze a la conzurta. Zi\xE9nteze
         aki, le voy a examin\xE1h\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7591376377516487675, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: hablador
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
@@ -2323,6 +2379,18 @@ PrefabInstance:
     - target: {fileID: 5265025203476680609, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680615, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680615, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.6832722
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680615, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.44716978
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203492901090, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_text
@@ -2464,6 +2532,10 @@ PrefabInstance:
         ze recuperar\xE1 pero nadie zabe k\xE9 clase de bufonada le har\xE1 nuehtro
         di\xF3 guaz\xF3n."
       objectReference: {fileID: 0}
+    - target: {fileID: 7591376377516487675, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: hablador
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
 --- !u!1 &2910895694323550380 stripped
@@ -2538,9 +2610,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Introducci\xF3n"
       objectReference: {fileID: 0}
+    - target: {fileID: 5049727412152648579, guid: 4140a5b5ce16d6f4ebdfcdd1510b4cac, type: 3}
+      propertyPath: m_Color.b
+      value: 0.37169808
+      objectReference: {fileID: 0}
+    - target: {fileID: 5049727412152648579, guid: 4140a5b5ce16d6f4ebdfcdd1510b4cac, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5049727412152648579, guid: 4140a5b5ce16d6f4ebdfcdd1510b4cac, type: 3}
+      propertyPath: m_Color.r
+      value: 0.99748033
+      objectReference: {fileID: 0}
     - target: {fileID: 5049727412152648580, guid: 4140a5b5ce16d6f4ebdfcdd1510b4cac, type: 3}
       propertyPath: m_RootOrder
       value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 7376016912879517663, guid: 4140a5b5ce16d6f4ebdfcdd1510b4cac, type: 3}
+      propertyPath: hablador
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4140a5b5ce16d6f4ebdfcdd1510b4cac, type: 3}
@@ -2793,6 +2881,10 @@ PrefabInstance:
     - target: {fileID: 5265025203492901090, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_text
       value: "\xBFK\xE9 te pareze la zar de fruta? Ke no eh zar ni eh fruta\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7591376377516487675, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: hablador
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}

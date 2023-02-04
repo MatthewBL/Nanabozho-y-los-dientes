@@ -387,6 +387,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &5145418624173611509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5473781419590776989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ed2985d97711c84a80cfbd7c850c9f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &5473781419810593065 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5049727411793795756, guid: 4140a5b5ce16d6f4ebdfcdd1510b4cac, type: 3}
@@ -645,6 +657,10 @@ PrefabInstance:
       propertyPath: m_text
       value: "Pedo\u2026 pedo dozt\xF3 \xA1\xBFk\xE9 ma exo?!\r"
       objectReference: {fileID: 0}
+    - target: {fileID: 7591376377516487675, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: hablador
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
 --- !u!1 &764809060928825354 stripped
@@ -778,6 +794,10 @@ PrefabInstance:
       value: "No me levante la pata ke yo no techo n\xE1 no ze te ocurra levantarme
         la pata a m\xED eh. Yo ya tavis\xE9 de lo ke pod\xEDa paz\xE1. ABerlo pensa\xF3
         ante b\xE1zicamente."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7591376377516487675, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: hablador
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}

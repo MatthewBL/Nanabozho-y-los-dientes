@@ -266,6 +266,10 @@ PrefabInstance:
       propertyPath: m_text
       value: "Ezo lo deber\xEDa zab\xE9 urt\xE9 ya."
       objectReference: {fileID: 0}
+    - target: {fileID: 7591376377516487675, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: hablador
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
 --- !u!1 &5668965094571804872 stripped
@@ -660,6 +664,10 @@ PrefabInstance:
       value: "Nada nada un plaz\xE9. Llame ar ziguiente paziente si no le importa
         cuando zarga.\r\n"
       objectReference: {fileID: 0}
+    - target: {fileID: 7591376377516487675, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: hablador
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
 --- !u!1 &6980396072692533892 stripped
@@ -791,6 +799,10 @@ PrefabInstance:
       propertyPath: m_text
       value: "Bueno po yo malegro muxho. Le vi\xE1 rezet\xE1 algo tambi\xE9n porzi
         acazo\u2026 No tome nada cada tr\xE9h hora y tome muxha leshe."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7591376377516487675, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: hablador
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
