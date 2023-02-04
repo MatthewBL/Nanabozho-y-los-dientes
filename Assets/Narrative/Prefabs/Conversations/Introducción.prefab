@@ -1464,7 +1464,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5265025201993036407, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_text
-      value: "\xAA poh dimel\xF3, dimel\xF3."
+      value: "\xAA poh dimel\xF3, dimel\xF3. AB\u2026 Yayayayaya. Z\xED, tiene uht\xE9
+        una inferci\xF3n mu fea en las ra\xEDze de zuh paleta."
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_Pivot.x
@@ -1552,7 +1553,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203492901090, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_text
-      value: "\xAA poh dimel\xF3, dimel\xF3."
+      value: "\xAA poh dimel\xF3, dimel\xF3. AB\u2026 Yayayayaya. Z\xED, tiene uht\xE9
+        una inferci\xF3n mu fea en las ra\xEDze de zuh paleta."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
