@@ -3600,11 +3600,11 @@ PrefabInstance:
       objectReference: {fileID: 2097177157}
     - target: {fileID: 1403596740899216833, guid: 7f5224e6b9e3e8a479b87da1ed51c345, type: 3}
       propertyPath: tiempoGeneracionFinal
-      value: 0.05
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 1403596740899216833, guid: 7f5224e6b9e3e8a479b87da1ed51c345, type: 3}
       propertyPath: tiempoGeneracionInicial
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 3388120414129700478, guid: 7f5224e6b9e3e8a479b87da1ed51c345, type: 3}
       propertyPath: m_Name
@@ -3858,6 +3858,14 @@ PrefabInstance:
     - target: {fileID: 3796506958007235778, guid: 738bfa48ae9d2694fa857507a4ce35a5, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796506958007235779, guid: 738bfa48ae9d2694fa857507a4ce35a5, type: 3}
+      propertyPath: tiempoInicial
+      value: 84
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796506958007235779, guid: 738bfa48ae9d2694fa857507a4ce35a5, type: 3}
+      propertyPath: tiempoRestante
+      value: 84
       objectReference: {fileID: 0}
     - target: {fileID: 6265753993758415368, guid: 738bfa48ae9d2694fa857507a4ce35a5, type: 3}
       propertyPath: m_Color.b

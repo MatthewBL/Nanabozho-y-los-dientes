@@ -8,6 +8,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -5617914571346078737, guid: 0351a15e447b1594cb2b1bc53f5327ca, type: 3}
+      propertyPath: m_Size.x
+      value: 0.72
+      objectReference: {fileID: 0}
+    - target: {fileID: -5617914571346078737, guid: 0351a15e447b1594cb2b1bc53f5327ca, type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
@@ -73,7 +77,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 24707612631694520, guid: 0351a15e447b1594cb2b1bc53f5327ca, type: 3}
       propertyPath: velocidadDeMovimiento
-      value: 1.75
+      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0351a15e447b1594cb2b1bc53f5327ca, type: 3}

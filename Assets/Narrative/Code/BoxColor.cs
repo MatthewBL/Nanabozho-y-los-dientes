@@ -21,13 +21,14 @@ public class BoxColor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Color color = GetComponent<Image>().color;
         if (hablador == Hablador.Jugador)
         {
-            GetComponent<Image>().color = new Color(colorJugador.r, colorJugador.g, colorJugador.b);
+            GetComponent<Image>().color = new Color(colorJugador.r, colorJugador.g, colorJugador.b, color.a);
         }
         if (hablador == Hablador.Chaman)
         {
-            GetComponent<Image>().color = new Color(colorChaman.r, colorChaman.g, colorChaman.b);
+            GetComponent<Image>().color = new Color(colorChaman.r, colorChaman.g, colorChaman.b, color.a);
         }
     }
 }

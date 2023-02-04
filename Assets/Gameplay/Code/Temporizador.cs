@@ -25,8 +25,8 @@ public class Temporizador : MonoBehaviour
     void Update()
     {
         tiempoRestante -= Time.deltaTime;
-        int minutos = Mathf.FloorToInt(tiempoRestante / 60);
-        int segundos = Mathf.FloorToInt(tiempoRestante % 60);
+        int minutos = Mathf.Max(Mathf.FloorToInt(tiempoRestante / 60), 0);
+        int segundos = Mathf.Max(Mathf.FloorToInt(tiempoRestante % 60), 0);
         if (segundos >= 10) text.text = minutos + ":" + segundos;
         else text.text = minutos + ":" + "0" + segundos;
 
