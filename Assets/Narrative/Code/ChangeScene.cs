@@ -17,7 +17,7 @@ public class ChangeScene : MonoBehaviour
         
     }
 
-    public void Scene(int scene)
+    public void StartGameplay(int scene)
     {
         SceneManager.LoadScene(scene);
     }
