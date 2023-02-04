@@ -20,6 +20,7 @@ public class Personaje : MonoBehaviour
     void Update()
     {
         UpdatePosition();
+        UpdateAnimation();
     }
 
     void UpdatePosition()
@@ -58,5 +59,35 @@ public class Personaje : MonoBehaviour
     {
         this.direccionVert = direccionVert;
         this.direccionHor = direccionHor;
+    }
+
+    void UpdateAnimation()
+    {
+        if (!GetComponent<Animator>())
+        {
+            return;
+        }
+        if (Mathf.Abs(direccionVert) > Mathf.Abs(direccionHor))
+        {
+            if (direccionVert > 0)
+            {
+                GetComponent<Animator>().SetFloat("Direccion", 0);
+            }
+            else
+            {
+                GetComponent<Animator>().SetFloat("Direccion", 0.67f);
+            }
+        }
+        else
+        {
+            if (direccionHor < 0)
+            {
+                GetComponent<Animator>().SetFloat("Direccion", 1);
+            }
+            else
+            {
+                GetComponent<Animator>().SetFloat("Direccion", 0.34f);
+            }
+        }
     }
 }
