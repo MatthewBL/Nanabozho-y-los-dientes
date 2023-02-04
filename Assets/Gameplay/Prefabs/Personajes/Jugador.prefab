@@ -7,6 +7,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5617914571346078737, guid: 0351a15e447b1594cb2b1bc53f5327ca, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.28
+      objectReference: {fileID: 0}
+    - target: {fileID: -5617914571346078737, guid: 0351a15e447b1594cb2b1bc53f5327ca, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.28
+      objectReference: {fileID: 0}
     - target: {fileID: 24707612631694501, guid: 0351a15e447b1594cb2b1bc53f5327ca, type: 3}
       propertyPath: m_Name
       value: Jugador
@@ -39,6 +47,10 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 6362809378228454862, guid: 0351a15e447b1594cb2b1bc53f5327ca, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0351a15e447b1594cb2b1bc53f5327ca, type: 3}
 --- !u!1 &3823546880009602689 stripped
@@ -46,22 +58,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 24707612631694501, guid: 0351a15e447b1594cb2b1bc53f5327ca, type: 3}
   m_PrefabInstance: {fileID: 3843875953066277412}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &23728288418068554
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3823546880009602689}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da616c7883436c545b55f65815bbadf0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  arriba: 119
-  derecha: 100
-  abajo: 115
-  izquierda: 97
 --- !u!95 &3534699406539454443
 Animator:
   serializedVersion: 4
@@ -82,3 +78,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &23728288418068554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3823546880009602689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da616c7883436c545b55f65815bbadf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arriba: 119
+  derecha: 100
+  abajo: 115
+  izquierda: 97

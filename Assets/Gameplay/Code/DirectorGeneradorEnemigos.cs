@@ -8,7 +8,9 @@ public class DirectorGeneradorEnemigos : MonoBehaviour
     public float tiempoGeneracionFinal = 0.05f;
     public float tiempoTranscurrido = 0;
 
-    float tiempoGeneración = 1f;
+    public Temporizador temporizador;
+
+    public float tiempoGeneracion = 1f;
 
     List<GameObject> generadoresEnemigos;
 
@@ -21,11 +23,20 @@ public class DirectorGeneradorEnemigos : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        UpdateSpawnTime();
+
         tiempoTranscurrido += Time.deltaTime;
-        if (tiempoTranscurrido >= tiempoGeneración)
+        if (tiempoTranscurrido >= tiempoGeneracion)
         {
             SpawnEnemy();
         }
+    }
+
+    void UpdateSpawnTime()
+    {
+        float diferenciaTiempo = tiempoGeneracionInicial - tiempoGeneracionFinal;
+        float dimensionarTiempo = diferenciaTiempo * temporizador.RatioTiempo();
+        tiempoGeneracion = tiempoGeneracionFinal + dimensionarTiempo;
     }
 
     void SpawnEnemy()
