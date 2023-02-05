@@ -23,7 +23,7 @@ public class ZonaDefender : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        text.text = defensaRestante.ToString();
+        text.text = Mathf.Max(defensaRestante, 0).ToString();
         indicadorDefensa.value = defensaRestante;
         CheckDefeat();
     }
@@ -46,8 +46,15 @@ public class ZonaDefender : MonoBehaviour
     {
         if (defensaRestante <= 0)
         {
-            PlayerPrefs.SetString("Outcome", "Defeat");
-            SceneManager.LoadScene(2);
+            if (SceneManager.GetActiveScene().name != "Gameplay")
+            {
+                SceneManager.LoadScene(4);
+            }
+            else
+            {
+                PlayerPrefs.SetString("Outcome", "Defeat");
+                SceneManager.LoadScene(2);
+            }
         }
     }
 }

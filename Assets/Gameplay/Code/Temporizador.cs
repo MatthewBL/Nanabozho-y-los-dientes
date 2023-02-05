@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -20,8 +21,6 @@ public class Temporizador : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        contadorAnzuelos = GameObject.FindGameObjectWithTag("ContadorAnzuelos").GetComponent<ContadorAnzuelos>();
-
         tiempoRestante = tiempoInicial;
     }
 
@@ -49,17 +48,34 @@ public class Temporizador : MonoBehaviour
             Temporizador.victory = true;
             fadeInPanel.gameObject.SetActive(true);
         }
-        if (tiempoRestante <= 0f)
+        if (SceneManager.GetActiveScene().name == "Gameplay")
         {
-            if (contadorAnzuelos.anzuelosObtenidos >= 23)
+            if (tiempoRestante <= 0f)
             {
-                PlayerPrefs.SetString("Outcome", "Secret");
+                contadorAnzuelos = GameObject.FindGameObjectWithTag("ContadorAnzuelos").GetComponent<ContadorAnzuelos>();
+
+                if (contadorAnzuelos.anzuelosObtenidos >= 23)
+                {
+                    PlayerPrefs.SetString("Outcome", "Secret");
+                }
+                else
+                {
+                    PlayerPrefs.SetString("Outcome", "Victory");
+                }
+                Temporizador.victory = false;
+                SceneManager.LoadScene(2);
             }
-            else
-            {
-                PlayerPrefs.SetString("Outcome", "Victory");
-            }
-            SceneManager.LoadScene(2);
         }
+        else
+        {
+            if (tiempoRestante <= 0f)
+            {
+                Temporizador.victory = false;
+                int level = PlayerPrefs.GetInt("SurvivalLevel");
+                PlayerPrefs.SetInt("SurvivalLevel", level + 1);
+                SceneManager.LoadScene(3);
+            }
+        }
+        
     }
 }

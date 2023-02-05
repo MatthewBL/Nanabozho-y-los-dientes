@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DirectorGeneradorEnemigos : MonoBehaviour
 {
@@ -34,9 +35,14 @@ public class DirectorGeneradorEnemigos : MonoBehaviour
 
     void UpdateSpawnTime()
     {
+        int n = 0;
+        if (SceneManager.GetActiveScene().name != "Gameplay")
+        {
+            n = PlayerPrefs.GetInt("SurvivalLevel") / 3;
+        }
         float diferenciaTiempo = tiempoGeneracionInicial - tiempoGeneracionFinal;
         float dimensionarTiempo = diferenciaTiempo * temporizador.RatioTiempo();
-        tiempoGeneracion = tiempoGeneracionFinal + dimensionarTiempo;
+        tiempoGeneracion = (tiempoGeneracionFinal + dimensionarTiempo) / (1 + n);
     }
 
     void SpawnEnemy()

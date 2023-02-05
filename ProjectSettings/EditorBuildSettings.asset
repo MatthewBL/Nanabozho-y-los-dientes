@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Narrative/Scenes/Narrative.unity
     guid: ab3d202b56f9d8f419c69b6b04958685
+  - enabled: 1
+    path: Assets/Gameplay/Scenes/Survival.unity
+    guid: ce2dd5ad4c30f2942a97107dbfcc3bd5
+  - enabled: 1
+    path: Assets/Gameplay/Scenes/Defeat.unity
+    guid: b108d8ddb76d8c641bc482d179beb2cd
   m_configObjects: {}

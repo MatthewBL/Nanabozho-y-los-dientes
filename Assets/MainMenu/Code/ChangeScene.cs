@@ -20,6 +20,7 @@ public class ChangeScene : MonoBehaviour
 
     public void StartGameplay(int scene)
     {
+        PlayerPrefs.SetInt("SurvivalLevel", 1);
         SceneManager.LoadScene(scene);
     }
 }

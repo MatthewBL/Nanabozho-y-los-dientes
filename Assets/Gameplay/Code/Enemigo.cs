@@ -5,6 +5,7 @@ using UnityEngine;
 public class Enemigo : MonoBehaviour
 {
     public AudioClip deathSoundEffect;
+    public int power = 1;
 
     // Start is called before the first frame update
     void Start()
@@ -29,7 +30,7 @@ public class Enemigo : MonoBehaviour
         }
         if (collision.GetComponent<ZonaDefender>())
         {
-            collision.GetComponent<ZonaDefender>().ReducirDefensa(1);
+            collision.GetComponent<ZonaDefender>().ReducirDefensa(power);
             Destroy(gameObject);
         }
     }
