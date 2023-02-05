@@ -15,9 +15,13 @@ public class Temporizador : MonoBehaviour
     public TextMeshProUGUI text;
     public GameObject fadeInPanel;
 
+    ContadorAnzuelos contadorAnzuelos;
+
     // Start is called before the first frame update
     void Start()
     {
+        contadorAnzuelos = GameObject.FindGameObjectWithTag("ContadorAnzuelos").GetComponent<ContadorAnzuelos>();
+
         tiempoRestante = tiempoInicial;
     }
 
@@ -47,7 +51,14 @@ public class Temporizador : MonoBehaviour
         }
         if (tiempoRestante <= 0f)
         {
-            PlayerPrefs.SetString("Outcome", "Victory");
+            if (contadorAnzuelos.anzuelosObtenidos >= 23)
+            {
+                PlayerPrefs.SetString("Outcome", "Secret");
+            }
+            else
+            {
+                PlayerPrefs.SetString("Outcome", "Victory");
+            }
             SceneManager.LoadScene(2);
         }
     }

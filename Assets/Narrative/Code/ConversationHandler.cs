@@ -21,6 +21,9 @@ public class ConversationHandler : MonoBehaviour
             case "Victory":
                 goodEnding.SetActive(true);
                 break;
+            case "Secret":
+                secretEnding.SetActive(true);
+                break;
             default:
                 introduction.SetActive(true);
                 break;
