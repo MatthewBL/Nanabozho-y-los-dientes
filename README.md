@@ -2,7 +2,7 @@
 
 ## Global game jam 2023
 
-##Cómo jugar
+## Cómo jugar
 * Descarga el contenido de nuestro repositorio
 * Accede a la carpeta "Executable", el juego y todo lo que necesita para funcionar se encuentra en esa carpeta.
 * Para ejecutar el juego, haz click en el archivo "Nanabozho y los dientes.exe"
