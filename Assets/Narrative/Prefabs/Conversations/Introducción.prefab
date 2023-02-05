@@ -965,7 +965,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_RootOrder
-      value: 30
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1235,7 +1235,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1355,7 +1355,7 @@ PrefabInstance:
     - target: {fileID: 876147814845292908, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 8032819680873577919}
+      objectReference: {fileID: 186857219691037019}
     - target: {fileID: 876147814845292908, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: SetActive
@@ -1370,7 +1370,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5265025201993036407, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_text
-      value: "\xBFQuiere zegu\xED adelante?"
+      value: "Pero pueden ocurr\xED efehto seduncarios: zi zale mal urt\xE9 se keda
+        zin dienteh; zi zale bien urt\xE9 ze recupera de zu dolenzia.\r"
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_Pivot.x
@@ -1382,7 +1383,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_RootOrder
-      value: 28
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1458,7 +1459,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203492901090, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_text
-      value: "\xBFQuiere zegu\xED adelante?"
+      value: "Pero pueden ocurr\xED efehto seduncarios: zi zale mal urt\xE9 se keda
+        zin dienteh; zi zale bien urt\xE9 ze recupera de zu dolenzia.\r"
       objectReference: {fileID: 0}
     - target: {fileID: 7591376377516487675, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: hablador
@@ -1512,7 +1514,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1694,7 +1696,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5136359022013816376, guid: f150336d40770d9438896fb350fb3382, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5136359022013816376, guid: f150336d40770d9438896fb350fb3382, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1937,8 +1939,7 @@ PrefabInstance:
     - target: {fileID: 5265025201993036407, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_text
       value: "Ver\xE1 una manzia eh una coza zupernatural zubterf\xFAgica que practicaban
-        los antiguo chamaneh de nuestro pueblo, a trav\xE9 del cual invocaban los
-        podere der di\xF3 Nanabozho para que loh ayudara en cazo de nezezid\xE1."
+        los antiguo chamaneh de nuestro pueblo\u2026"
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_Pivot.x
@@ -1950,7 +1951,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2027,8 +2028,7 @@ PrefabInstance:
     - target: {fileID: 5265025203492901090, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_text
       value: "Ver\xE1 una manzia eh una coza zupernatural zubterf\xFAgica que practicaban
-        los antiguo chamaneh de nuestro pueblo, a trav\xE9 del cual invocaban los
-        podere der di\xF3 Nanabozho para que loh ayudara en cazo de nezezid\xE1."
+        los antiguo chamaneh de nuestro pueblo\u2026"
       objectReference: {fileID: 0}
     - target: {fileID: 7591376377516487675, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: hablador
@@ -2040,6 +2040,136 @@ PrefabInstance:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5265025203476680609, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
   m_PrefabInstance: {fileID: 2283678437521387509}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2644415723080044597
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3265836578553028787}
+    m_Modifications:
+    - target: {fileID: 876147814845292908, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 876147814845292908, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 8032819680873577919}
+    - target: {fileID: 876147814845292908, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 876147814845292908, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 876147814845292908, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025201993036407, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_text
+      value: "\xBFQuiere zegu\xED adelante?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_RootOrder
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680609, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_Name
+      value: BoxDialogue (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680609, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203492901090, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_text
+      value: "\xBFQuiere zegu\xED adelante?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7591376377516487675, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: hablador
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+--- !u!1 &7900433668224589716 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5265025203476680609, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+  m_PrefabInstance: {fileID: 2644415723080044597}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2768427850603737630
 PrefabInstance:
@@ -2083,7 +2213,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_RootOrder
-      value: 29
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2210,7 +2340,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2353,7 +2483,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_RootOrder
-      value: 24
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2493,7 +2623,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_RootOrder
-      value: 32
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2658,7 +2788,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2839,7 +2969,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_AnchorMax.x
@@ -3018,7 +3148,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_RootOrder
-      value: 31
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_AnchorMax.x
@@ -3176,7 +3306,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_AnchorMax.x
@@ -3338,7 +3468,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5136359022013816376, guid: f150336d40770d9438896fb350fb3382, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 5136359022013816376, guid: f150336d40770d9438896fb350fb3382, type: 3}
       propertyPath: m_AnchorMax.x
@@ -3655,7 +3785,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_AnchorMax.x
@@ -3745,6 +3875,140 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5265025203476680609, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
   m_PrefabInstance: {fileID: 5330757964682283364}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5442311116662378234
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3265836578553028787}
+    m_Modifications:
+    - target: {fileID: 876147814845292908, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 876147814845292908, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 7900433668224589716}
+    - target: {fileID: 876147814845292908, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 876147814845292908, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 876147814845292908, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025201993036407, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_text
+      value: "Pero tambi\xE9n puede zuzed\xE9 que Nanabozho se prezenzie ante nozotro;
+        en eze cazo urt\xE9 ze recuperar\xE1 pero nadie zabe k\xE9 clase de bufonada
+        le har\xE1 nuehtro di\xF3 guaz\xF3n."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_RootOrder
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680609, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_Name
+      value: BoxDialogue (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680609, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203492901090, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_text
+      value: "Pero tambi\xE9n puede zuzed\xE9 que Nanabozho se prezenzie ante nozotro;
+        en eze cazo urt\xE9 ze recuperar\xE1 pero nadie zabe k\xE9 clase de bufonada
+        le har\xE1 nuehtro di\xF3 guaz\xF3n."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7591376377516487675, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: hablador
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+--- !u!1 &186857219691037019 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5265025203476680609, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+  m_PrefabInstance: {fileID: 5442311116662378234}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5572801957736610650
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3826,7 +4090,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5136359022013816376, guid: f150336d40770d9438896fb350fb3382, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 5136359022013816376, guid: f150336d40770d9438896fb350fb3382, type: 3}
       propertyPath: m_AnchorMax.x
@@ -4114,7 +4378,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_AnchorMax.x
@@ -4289,7 +4553,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_AnchorMax.x
@@ -4618,7 +4882,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_AnchorMax.x
@@ -4746,11 +5010,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5265025201993036407, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_text
-      value: "Pero pueden ocurr\xED efehto seduncarios: zi zale mal urt\xE9 se keda
-        zin dienteh; zi zale bien urt\xE9 ze recupera de zu dolenzia. Pero tambi\xE9n
-        puede zuzed\xE9 que Nanabozho se prezenzie ante nozotro; en eze cazo urt\xE9
-        ze recuperar\xE1 pero nadie zabe k\xE9 clase de bufonada le har\xE1 nuehtro
-        di\xF3 guaz\xF3n."
+      value: "a trav\xE9 del cual invocaban los podere der di\xF3 Nanabozho para
+        que loh ayudara en cazo de nezezid\xE1."
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_Pivot.x
@@ -4762,7 +5023,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_RootOrder
-      value: 27
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_AnchorMax.x
@@ -4838,11 +5099,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203492901090, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_text
-      value: "Pero pueden ocurr\xED efehto seduncarios: zi zale mal urt\xE9 se keda
-        zin dienteh; zi zale bien urt\xE9 ze recupera de zu dolenzia. Pero tambi\xE9n
-        puede zuzed\xE9 que Nanabozho se prezenzie ante nozotro; en eze cazo urt\xE9
-        ze recuperar\xE1 pero nadie zabe k\xE9 clase de bufonada le har\xE1 nuehtro
-        di\xF3 guaz\xF3n."
+      value: "a trav\xE9 del cual invocaban los podere der di\xF3 Nanabozho para
+        que loh ayudara en cazo de nezezid\xE1."
       objectReference: {fileID: 0}
     - target: {fileID: 7591376377516487675, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: hablador
@@ -4864,7 +5122,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 229031703573376328, guid: 4140a5b5ce16d6f4ebdfcdd1510b4cac, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 229031703573376328, guid: 4140a5b5ce16d6f4ebdfcdd1510b4cac, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -4873,7 +5131,7 @@ PrefabInstance:
     - target: {fileID: 229031703573376328, guid: 4140a5b5ce16d6f4ebdfcdd1510b4cac, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 2842949790299343221}
+      objectReference: {fileID: 3560180414190828500}
     - target: {fileID: 229031703573376328, guid: 4140a5b5ce16d6f4ebdfcdd1510b4cac, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
@@ -4954,6 +5212,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Introducci\xF3n"
       objectReference: {fileID: 0}
+    - target: {fileID: 5049727412136434886, guid: 4140a5b5ce16d6f4ebdfcdd1510b4cac, type: 3}
+      propertyPath: m_text
+      value: "Ola buenas tarde paziente yo zoy er dort\xF3. \xBFC\xF3mo est\xE1?
+        \xBFC\xF3mo ze encuentra \xFArtimamente?"
+      objectReference: {fileID: 0}
     - target: {fileID: 5049727412152648579, guid: 4140a5b5ce16d6f4ebdfcdd1510b4cac, type: 3}
       propertyPath: m_Color.b
       value: 0.37169808
@@ -4973,6 +5236,11 @@ PrefabInstance:
     - target: {fileID: 5049727412152648581, guid: 4140a5b5ce16d6f4ebdfcdd1510b4cac, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5049727413615574611, guid: 4140a5b5ce16d6f4ebdfcdd1510b4cac, type: 3}
+      propertyPath: m_text
+      value: "Ola buenas tarde paziente yo zoy er dort\xF3. \xBFC\xF3mo est\xE1?
+        \xBFC\xF3mo ze encuentra \xFArtimamente?"
       objectReference: {fileID: 0}
     - target: {fileID: 7376016912879517663, guid: 4140a5b5ce16d6f4ebdfcdd1510b4cac, type: 3}
       propertyPath: hablador
@@ -5031,7 +5299,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_AnchorMax.x
@@ -5157,7 +5425,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
       propertyPath: m_AnchorMax.x
@@ -5245,6 +5513,186 @@ PrefabInstance:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5265025203476680609, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
   m_PrefabInstance: {fileID: 8541846534617665767}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8681090426634073205
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3265836578553028787}
+    m_Modifications:
+    - target: {fileID: 876147814845292908, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 876147814845292908, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 876147814845292908, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 876147814845292908, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2842949790299343221}
+    - target: {fileID: 876147814845292908, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 630818890394544354}
+    - target: {fileID: 876147814845292908, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 876147814845292908, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 876147814845292908, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 876147814845292908, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 876147814845292908, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 876147814845292908, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 876147814845292908, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 876147814845292908, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025201993036407, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_text
+      value: "Ma dicho ke tiene urt\xE9 un problema con lor diente\u2026 No ze preocupe.
+        Yo voy a curarle. \xBFC\xF3mo ze llama, perdone?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680608, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680609, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_Name
+      value: BoxDialogue (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680609, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680615, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_Color.b
+      value: 0.37169808
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203476680615, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.99748033
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265025203492901090, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: m_text
+      value: "Ma dicho ke tiene urt\xE9 un problema con lor diente\u2026 No ze preocupe.
+        Yo voy a curarle. \xBFC\xF3mo ze llama, perdone?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7591376377516487675, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+      propertyPath: hablador
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+--- !u!1 &3560180414190828500 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5265025203476680609, guid: 1d44e5bf941022b449aacf0ee852196e, type: 3}
+  m_PrefabInstance: {fileID: 8681090426634073205}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &9195321476267977030
 PrefabInstance:
@@ -5375,7 +5823,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5136359022013816376, guid: f150336d40770d9438896fb350fb3382, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5136359022013816376, guid: f150336d40770d9438896fb350fb3382, type: 3}
       propertyPath: m_AnchorMax.x
