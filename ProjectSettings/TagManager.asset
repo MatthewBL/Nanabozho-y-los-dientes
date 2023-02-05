@@ -8,6 +8,7 @@ TagManager:
   - GeneradorAnzuelo
   - ContadorAnzuelos
   - AudioSource
+  - Warp point
   layers:
   - Default
   - TransparentFX

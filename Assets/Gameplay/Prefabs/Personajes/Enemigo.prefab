@@ -119,3 +119,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathSoundEffect: {fileID: 8300000, guid: 71e3ed06bf269f043a31ed9a657dd1c3, type: 3}
+  power: 1
+  warp: 0

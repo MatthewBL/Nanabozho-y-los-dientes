@@ -86,20 +86,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 24707612631694501, guid: 0351a15e447b1594cb2b1bc53f5327ca, type: 3}
   m_PrefabInstance: {fileID: 3529842807040371030}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1572484841557325491
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3506969464081159667}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6b5c16e89c253e4ea2606a8b7fb54b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  deathSoundEffect: {fileID: 8300000, guid: 71e3ed06bf269f043a31ed9a657dd1c3, type: 3}
-  power: 1
 --- !u!95 &4267293315982964073
 Animator:
   serializedVersion: 4
@@ -120,3 +106,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1572484841557325491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3506969464081159667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b5c16e89c253e4ea2606a8b7fb54b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathSoundEffect: {fileID: 8300000, guid: 71e3ed06bf269f043a31ed9a657dd1c3, type: 3}
+  power: 1
+  warp: 1
