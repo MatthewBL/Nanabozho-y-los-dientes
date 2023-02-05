@@ -23,7 +23,9 @@ Juego entregado para la Global GameJam 2023, bajo el tema raíces.
 
 ## Integrantes del grupo y roles
 
-* Isabel Arrans Vega: Artista 2D. Apoyo al desarrollo
-* Matthew Bwye Lera: Desarrollador
-* Jesús Martín Dávila Otero: Tester. Apoyo al guión y a las ideas
-* Guillermo López Rosado: Artista musical
+* Diseño: Jesús Martín Dávila Otero, Matthew Bwye Lera e Isabel Arrans Vega
+* Desarrollo: Matthew Bwye Lera
+* Narrativa: Jesús Martín Dávila Otero
+* Arte: Isabel Arrans Vega y Diego Manuel Gil Losa
+* Música: Guillermo López Rosado
+* Efectos de sonido: Guillermo López Rosado y Jesús Martín Dávila Otero
