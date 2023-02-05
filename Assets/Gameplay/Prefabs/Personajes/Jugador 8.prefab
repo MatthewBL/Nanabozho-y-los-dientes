@@ -91,6 +91,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arriba: 285
-  derecha: 308
-  abajo: 278
+  derecha: 305
+  abajo: 308
   izquierda: 27
