@@ -1,6 +1,7 @@
 # Nanabozho y los dientes
 
 ## Global game jam 2023
+Juego entregado para la Global GameJam 2023, bajo el tema raíces.
 
 ## Cómo jugar
 * Descarga el contenido de nuestro repositorio
