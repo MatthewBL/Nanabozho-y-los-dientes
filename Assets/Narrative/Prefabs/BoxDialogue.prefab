@@ -521,7 +521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2976060fe9bb2ad4db1fb9f25be128dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  colorJugador: {r: 0, g: 0.59682465, b: 1, a: 0}
+  colorJugador: {r: 0, g: 0.6, b: 1, a: 0}
   colorChaman: {r: 1, g: 0.973784, b: 0.29622638, a: 0}
   hablador: 0
 --- !u!1 &5265025203492901100
