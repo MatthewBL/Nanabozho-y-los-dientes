@@ -438,8 +438,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da90e29f3da696e49880bbe97db79995, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defensaIncial: 15
-  defensaRestante: 15
+  defensaIncial: 23
+  defensaRestante: 23
   text: {fileID: 2433705053596386785}
   slider: {fileID: 6438663907331605558}
   damageSoundEffect: {fileID: 8300000, guid: 63fa51f5a6e7b454cbbcf2da5f4f0c1c, type: 3}

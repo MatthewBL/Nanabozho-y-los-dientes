@@ -6,6 +6,7 @@ TagManager:
   tags:
   - GeneradorEnemigos
   - GeneradorAnzuelo
+  - ContadorAnzuelos
   layers:
   - Default
   - TransparentFX

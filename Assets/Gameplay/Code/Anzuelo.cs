@@ -8,10 +8,12 @@ public class Anzuelo : MonoBehaviour
     public float timeToLive = 5;
     float tiempoTranscurrido;
 
+    ContadorAnzuelos contadorAnzuelos;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        contadorAnzuelos = GameObject.FindGameObjectWithTag("ContadorAnzuelos").GetComponent<ContadorAnzuelos>();
     }
 
     // Update is called once per frame
@@ -29,6 +31,7 @@ public class Anzuelo : MonoBehaviour
     {
         if (collision.GetComponent<PersonajeControlable>())
         {
+            contadorAnzuelos.anzuelosObtenidos += 1;
             collision.GetComponent<AudioSource>().clip = collectSoundEffect;
             collision.GetComponent<AudioSource>().Play();
             Destroy(gameObject);
