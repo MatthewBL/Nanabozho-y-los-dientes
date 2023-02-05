@@ -7678,7 +7678,7 @@ GameObject:
   - component: {fileID: 1978086098}
   m_Layer: 0
   m_Name: Musica
-  m_TagString: Untagged
+  m_TagString: AudioSource
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8134,6 +8134,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 444974064454708347, guid: 33dafed78211fb1499ee09c9f19eda95, type: 3}
+      propertyPath: music
+      value: 
+      objectReference: {fileID: 1978086098}
+    - target: {fileID: 444974064454708347, guid: 33dafed78211fb1499ee09c9f19eda95, type: 3}
       propertyPath: temporizador
       value: 
       objectReference: {fileID: 2097177157}
@@ -8141,6 +8145,10 @@ PrefabInstance:
       propertyPath: zonaDefender
       value: 
       objectReference: {fileID: 862728703}
+    - target: {fileID: 444974064454708347, guid: 33dafed78211fb1499ee09c9f19eda95, type: 3}
+      propertyPath: nanabozhoClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 1e12a4a5ae131344bbf1b29f3f815deb, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33dafed78211fb1499ee09c9f19eda95, type: 3}
 --- !u!1001 &842452739040398569
@@ -8315,14 +8323,6 @@ PrefabInstance:
     - target: {fileID: 3796506958007235778, guid: 738bfa48ae9d2694fa857507a4ce35a5, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3796506958007235779, guid: 738bfa48ae9d2694fa857507a4ce35a5, type: 3}
-      propertyPath: tiempoInicial
-      value: 84
-      objectReference: {fileID: 0}
-    - target: {fileID: 3796506958007235779, guid: 738bfa48ae9d2694fa857507a4ce35a5, type: 3}
-      propertyPath: tiempoRestante
-      value: 84
       objectReference: {fileID: 0}
     - target: {fileID: 6265753993758415368, guid: 738bfa48ae9d2694fa857507a4ce35a5, type: 3}
       propertyPath: m_Color.b

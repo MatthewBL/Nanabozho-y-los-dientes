@@ -7,6 +7,7 @@ public class Personaje : MonoBehaviour
     public enum Orientation { vertical, horizontal }
 
     public float velocidadDeMovimiento = 5;
+    public float multiplicadorVelocidad = 1;
     public float direccionVert = -1;
     public float direccionHor = 0;
 
@@ -32,11 +33,11 @@ public class Personaje : MonoBehaviour
     {
         if (orientation.Equals(Orientation.vertical))
         {
-            return initialCoord + velocidadDeMovimiento * Time.deltaTime * direccionVert;
+            return initialCoord + (velocidadDeMovimiento * multiplicadorVelocidad) * Time.deltaTime * direccionVert;
         }
         else
         {
-            return initialCoord + velocidadDeMovimiento * Time.deltaTime * direccionHor;
+            return initialCoord + (velocidadDeMovimiento * multiplicadorVelocidad) * Time.deltaTime * direccionHor;
         }
     }
 

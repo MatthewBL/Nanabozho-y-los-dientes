@@ -7,6 +7,7 @@ TagManager:
   - GeneradorEnemigos
   - GeneradorAnzuelo
   - ContadorAnzuelos
+  - AudioSource
   layers:
   - Default
   - TransparentFX
