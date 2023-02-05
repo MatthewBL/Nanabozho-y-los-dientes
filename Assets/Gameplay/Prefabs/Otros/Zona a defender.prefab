@@ -438,8 +438,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da90e29f3da696e49880bbe97db79995, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defensaIncial: 15
-  defensaRestante: 15
+  defensaIncial: 23
+  defensaRestante: 23
   text: {fileID: 2433705053596386785}
   slider: {fileID: 6438663907331605558}
   damageSoundEffect: {fileID: 8300000, guid: 63fa51f5a6e7b454cbbcf2da5f4f0c1c, type: 3}
@@ -607,8 +607,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 10
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 4427560ec0da5c9458fb9933def0937c, type: 2}
+  m_sharedMaterial: {fileID: 311501936896066161, guid: 4427560ec0da5c9458fb9933def0937c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

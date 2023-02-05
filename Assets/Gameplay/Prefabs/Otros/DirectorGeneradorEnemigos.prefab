@@ -44,8 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3382ec4881504614f957834329ee4db1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoGeneracionInicial: 5
-  tiempoGeneracionFinal: 2.5
+  tiempoGeneracionInicial: 1.5
+  tiempoGeneracionFinal: 0.8
   tiempoTranscurrido: 0
   temporizador: {fileID: 0}
   tiempoGeneracion: 1

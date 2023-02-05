@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - GeneradorEnemigos
+  - GeneradorAnzuelo
+  - ContadorAnzuelos
   layers:
   - Default
   - TransparentFX
