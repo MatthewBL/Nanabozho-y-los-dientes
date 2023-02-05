@@ -1,8 +1,13 @@
 # Nanabozho y los dientes
 
 ## Global game jam 2023
+Juego entregado para la Global GameJam 2023, bajo el tema raíces.
 
-Enlace de Google Drive: https://drive.google.com/drive/folders/19L_4xZ06-5Rmc48XVbxEAPdyfVjJQAGK
+## Cómo jugar
+* Descarga el contenido de nuestro repositorio
+* Accede a la carpeta "Executable", el juego y todo lo que necesita para funcionar se encuentra en esa carpeta.
+* Para ejecutar el juego, haz click en el archivo "Nanabozho y los dientes.exe"
+
 
 ## Entorno de desarrollo
 
@@ -18,8 +23,9 @@ Enlace de Google Drive: https://drive.google.com/drive/folders/19L_4xZ06-5Rmc48X
 
 ## Integrantes del grupo y roles
 
-* Isabel Arrans Vega: Artista 2D de personajes
-* Matthew Bwye Lera: Desarrollador
-* Jesús Martín Dávila Otero: Guionista y supervisor
-* Guillermo López Rosado: Artista musical
-* Diego Manuel Gil Losa: Artista 2D de entornos
+* Diseño: Jesús Martín Dávila Otero, Matthew Bwye Lera e Isabel Arrans Vega
+* Desarrollo: Matthew Bwye Lera
+* Narrativa: Jesús Martín Dávila Otero
+* Arte: Isabel Arrans Vega y Diego Manuel Gil Losa
+* Música: Guillermo López Rosado
+* Efectos de sonido: Jesús Martín Dávila Otero

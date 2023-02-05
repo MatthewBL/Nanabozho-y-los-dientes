@@ -11,7 +11,7 @@ public class ZonaDefender : MonoBehaviour
     [SerializeField]
     int defensaRestante = 10;
     public TextMeshProUGUI text;
-    public Slider slider;
+    public IndicadorDefensa indicadorDefensa;
     public AudioClip damageSoundEffect;
 
     // Start is called before the first frame update
@@ -24,7 +24,7 @@ public class ZonaDefender : MonoBehaviour
     void Update()
     {
         text.text = defensaRestante.ToString();
-        slider.value = RatioDefensa();
+        indicadorDefensa.value = defensaRestante;
         CheckDefeat();
     }
 
