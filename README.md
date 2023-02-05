@@ -28,4 +28,4 @@ Juego entregado para la Global GameJam 2023, bajo el tema raíces.
 * Narrativa: Jesús Martín Dávila Otero
 * Arte: Isabel Arrans Vega y Diego Manuel Gil Losa
 * Música: Guillermo López Rosado
-* Efectos de sonido: Guillermo López Rosado y Jesús Martín Dávila Otero
+* Efectos de sonido: Jesús Martín Dávila Otero
