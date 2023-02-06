@@ -19,6 +19,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jugador 2
       objectReference: {fileID: 0}
+    - target: {fileID: 24707612631694501, guid: 0351a15e447b1594cb2b1bc53f5327ca, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 24707612631694502, guid: 0351a15e447b1594cb2b1bc53f5327ca, type: 3}
       propertyPath: m_Sprite
       value: 
