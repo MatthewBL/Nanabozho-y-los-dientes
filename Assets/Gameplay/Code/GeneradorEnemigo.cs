@@ -1,9 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GeneradorEnemigo : MonoBehaviour
+public class GeneradorEnemigo : NetworkBehaviour
 {
     public GameObject enemigo;
     public int survivalLevel = 0;
@@ -28,6 +29,7 @@ public class GeneradorEnemigo : MonoBehaviour
 
     public void SpawnEnemy()
     {
-        Instantiate(enemigo, transform);
+        GameObject enemy = Instantiate(enemigo, transform);
+        enemy.GetComponent<NetworkObject>().Spawn();
     }
 }

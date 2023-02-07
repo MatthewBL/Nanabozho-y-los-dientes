@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Netcode;
 using UnityEngine;
 
-public class InvocadorNanabozho : MonoBehaviour
+public class InvocadorNanabozho : NetworkBehaviour
 {
     float tiempoComprobacion;
     bool haInvocado;
@@ -21,7 +22,10 @@ public class InvocadorNanabozho : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        CheckSummonNanabozho();
+        if (IsServer)
+        {
+            CheckSummonNanabozho();
+        }
     }
 
     void CheckSummonNanabozho()
@@ -45,6 +49,7 @@ public class InvocadorNanabozho : MonoBehaviour
     void SummonNanabozho()
     {
         haInvocado = true;
-        Instantiate(Nanabozho, transform);
+        GameObject go = Instantiate(Nanabozho, transform);
+        go.GetComponent<NetworkObject>().Spawn();
     }
 }

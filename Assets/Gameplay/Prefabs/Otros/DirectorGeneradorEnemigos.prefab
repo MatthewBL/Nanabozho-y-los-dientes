@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 109476204304178281}
   - component: {fileID: 1403596740899216833}
+  - component: {fileID: -4390317244604126842}
   m_Layer: 0
   m_Name: DirectorGeneradorEnemigos
   m_TagString: Untagged
@@ -49,3 +50,19 @@ MonoBehaviour:
   tiempoTranscurrido: 0
   temporizador: {fileID: 0}
   tiempoGeneracion: 1
+--- !u!114 &-4390317244604126842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3388120414129700478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 951099334
+  AlwaysReplicateAsRoot: 0
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1

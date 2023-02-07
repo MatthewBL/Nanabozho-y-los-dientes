@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Netcode;
 using UnityEngine;
 
-public class Nanabozho : MonoBehaviour
+public class Nanabozho : NetworkBehaviour
 {
     public float waitTime = 1f;
 

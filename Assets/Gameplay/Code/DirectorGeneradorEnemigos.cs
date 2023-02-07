@@ -1,9 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class DirectorGeneradorEnemigos : MonoBehaviour
+public class DirectorGeneradorEnemigos : NetworkBehaviour
 {
     public float tiempoGeneracionInicial = 2;
     public float tiempoGeneracionFinal = 0.05f;
@@ -18,18 +19,23 @@ public class DirectorGeneradorEnemigos : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        generadoresEnemigos = new List<GameObject>(GameObject.FindGameObjectsWithTag("GeneradorEnemigos"));
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        UpdateSpawnTime();
-
-        tiempoTranscurrido += Time.deltaTime;
-        if (tiempoTranscurrido >= tiempoGeneracion)
+        if (IsServer)
         {
-            SpawnEnemy();
+            generadoresEnemigos = new List<GameObject>(GameObject.FindGameObjectsWithTag("GeneradorEnemigos"));
+            UpdateSpawnTime();
+
+            tiempoTranscurrido += Time.deltaTime;
+            if (tiempoTranscurrido >= tiempoGeneracion)
+            {
+                int i = Random.Range(0, generadoresEnemigos.Count);
+                SpawnEnemy(i);
+            }
         }
     }
 
@@ -45,10 +51,9 @@ public class DirectorGeneradorEnemigos : MonoBehaviour
         tiempoGeneracion = (tiempoGeneracionFinal + dimensionarTiempo) / (1 + n);
     }
 
-    void SpawnEnemy()
+    void SpawnEnemy(int i)
     {
         tiempoTranscurrido = 0;
-        int i = Random.Range(0, generadoresEnemigos.Count);
         GeneradorEnemigo generadorEnemigo = generadoresEnemigos[i].GetComponent<GeneradorEnemigo>();
         generadorEnemigo.SpawnEnemy();
     }

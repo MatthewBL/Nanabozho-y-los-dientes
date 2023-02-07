@@ -2,11 +2,12 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class Temporizador : MonoBehaviour
+public class Temporizador : NetworkBehaviour
 {
     public static bool victory = false;
 
@@ -28,12 +29,19 @@ public class Temporizador : MonoBehaviour
     void Update()
     {
         tiempoRestante -= Time.deltaTime;
+        UpdateTimerClientRPC(tiempoRestante);
         int minutos = Mathf.Max(Mathf.FloorToInt(tiempoRestante / 60), 0);
         int segundos = Mathf.Max(Mathf.FloorToInt(tiempoRestante % 60), 0);
         if (segundos >= 10) text.text = minutos + ":" + segundos;
         else text.text = minutos + ":" + "0" + segundos;
 
         CheckVictory();
+    }
+
+    [ClientRpc]
+    void UpdateTimerClientRPC(float tiempoRestante)
+    {
+        this.tiempoRestante = tiempoRestante;
     }
 
     public float RatioTiempo()

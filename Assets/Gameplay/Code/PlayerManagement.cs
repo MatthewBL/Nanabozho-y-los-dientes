@@ -1,8 +1,10 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Netcode;
 using UnityEngine;
 
-public class PlayerManagement : MonoBehaviour
+public class PlayerManagement : NetworkBehaviour
 {
     public int numberOfPlayers = 1;
 
@@ -11,12 +13,10 @@ public class PlayerManagement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        numberOfPlayers = PlayerPrefs.GetInt("Players");
-        int i = 0;
-        while (i < numberOfPlayers)
+        if (IsServer)
         {
-            players[i].SetActive(true);
-            i += 1;
+            numberOfPlayers = NetworkManager.ConnectedClients.Count;
+            SpawnPlayers(numberOfPlayers);
         }
     }
 
@@ -24,5 +24,17 @@ public class PlayerManagement : MonoBehaviour
     void Update()
     {
 
+    }
+    
+    void SpawnPlayers(int numberOfPlayers)
+    {
+        int i = 0;
+        while (i < numberOfPlayers)
+        {
+            GameObject player = Instantiate(players[i], transform);
+            player.GetComponent<NetworkObject>().Spawn();
+            player.GetComponent<NetworkObject>().ChangeOwnership(Convert.ToUInt64(i));
+            i += 1;
+        }
     }
 }

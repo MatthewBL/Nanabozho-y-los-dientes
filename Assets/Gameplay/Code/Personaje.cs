@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Netcode;
 using UnityEngine;
 
-public class Personaje : MonoBehaviour
+public class Personaje : NetworkBehaviour
 {
     public enum Orientation { vertical, horizontal }
 
@@ -21,6 +22,10 @@ public class Personaje : MonoBehaviour
     void Update()
     {
         UpdatePosition();
+        if (IsOwner)
+        {
+            RefreshServerRpc(transform.position, this.direccionVert, this.direccionHor);
+        }
     }
 
     void UpdatePosition()
@@ -52,6 +57,28 @@ public class Personaje : MonoBehaviour
         {
             direccionVert = direction;
             direccionHor = 0;
+        }
+    }
+
+    [ServerRpc]
+    void RefreshServerRpc(Vector2 position, float direccionVert, float direccionHor)
+    {
+        RefreshClientRpc(position, direccionVert, direccionHor);
+    }
+
+    [ClientRpc]
+    void RefreshClientRpc(Vector2 position, float direccionVert, float direccionHor)
+    {
+        Refresh(position, direccionVert, direccionHor);
+    }
+
+    void Refresh(Vector2 position, float direccionVert, float direccionHor)
+    {
+        if (!IsOwner)
+        {
+            transform.position = position;
+            this.direccionVert = direccionVert;
+            this.direccionHor = direccionHor;
         }
     }
 

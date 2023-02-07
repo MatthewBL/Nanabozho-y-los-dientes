@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Netcode;
 using UnityEngine;
 
-public class Enemigo : MonoBehaviour
+public class Enemigo : NetworkBehaviour
 {
     public AudioClip deathSoundEffect;
     public int power = 1;
@@ -21,7 +22,6 @@ public class Enemigo : MonoBehaviour
     {
         
     }
-
     
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -34,11 +34,19 @@ public class Enemigo : MonoBehaviour
                 int r = Random.Range(0, warpPoints.Count);
                 collision.transform.position = warpPoints[r].transform.position;
             }
-            Destroy(gameObject);
+            DestroyEnemy();
         }
         if (collision.GetComponent<ZonaDefender>())
         {
             collision.GetComponent<ZonaDefender>().ReducirDefensa(power);
+            DestroyEnemy();
+        }
+    }
+    void DestroyEnemy()
+    {
+        gameObject.SetActive(false);
+        if (IsServer)
+        {
             Destroy(gameObject);
         }
     }
